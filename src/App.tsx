@@ -5,6 +5,7 @@ import { UseDeferredValueExample } from './UseDeferredValueExample/UseDeferredVa
 import { UseExample } from './UseExample/UseExample';
 import UseMemoExample from './UseMemoExample/UseMemoExample';
 import { UseReducerExample } from './UseReducerExample/UseReducerExample';
+import { UseRefExample } from './UseRefExample/UseRefExample';
 import { UseTransitionExample } from './UseTransitionExample/UseTransitionExample';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 			<UseReducerExample />
 			<UseTransitionExample />
 			<UseDeferredValueExample />
+			<UseRefExample />
 		</>
 	);
 }
